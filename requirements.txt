@@ -1,0 +1,13 @@
+ipykernel
+loguru
+matplotlib
+mkdocs
+openpyxl
+pandas
+pip
+python-dotenv
+ruff
+seaborn
+tqdm
+typer
+-e .
