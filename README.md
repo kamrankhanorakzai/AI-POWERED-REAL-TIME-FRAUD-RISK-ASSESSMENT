@@ -15,6 +15,8 @@ An AI-powered system for assessing fraud risk in real time.
 </a>
 
 <strong><a href="Roadmap/Fraud_Risk_Assessment_System_Roadmap%20(1).html">Open the Interactive Roadmap</a></strong>
+<br>
+<strong><a href="Roadmap/Fraud_Risk_Assessment_System_Roadmap.png">View the High-Resolution Static Image</a></strong>
 
 </div>
 
@@ -44,7 +46,8 @@ An AI-powered system for assessing fraud risk in real time.
 │
 ├── Roadmap
 │   ├── Fraud_Risk_Assessment_System_Roadmap (1).html <- Interactive system roadmap.
-│   └── Fraud_Risk_Assessment_System_Roadmap.gif    <- Animated roadmap preview shown in README.
+│   ├── Fraud_Risk_Assessment_System_Roadmap.png    <- High-resolution static roadmap.
+│   └── Fraud_Risk_Assessment_System_Roadmap.gif    <- Full-resolution animated roadmap.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
