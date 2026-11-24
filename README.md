@@ -10,13 +10,7 @@ An AI-powered system for assessing fraud risk in real time.
 
 <div align="center">
 
-<a href="Roadmap/Fraud_Risk_Assessment_System_Roadmap%20(1).html">
-  <img src="Roadmap/Fraud_Risk_Assessment_System_Roadmap.gif" alt="Animated AI-Powered Real-Time Fraud Risk Assessment System Roadmap" width="100%">
-</a>
-
-<strong><a href="Roadmap/Fraud_Risk_Assessment_System_Roadmap%20(1).html">Open the Interactive Roadmap</a></strong>
-<br>
-<strong><a href="Roadmap/Fraud_Risk_Assessment_System_Roadmap.png">View the High-Resolution Static Image</a></strong>
+<img src="Roadmap/Fraud_Risk_Assessment_System_Roadmap.gif" alt="Animated AI-Powered Real-Time Fraud Risk Assessment System Roadmap" width="100%">
 
 </div>
 
