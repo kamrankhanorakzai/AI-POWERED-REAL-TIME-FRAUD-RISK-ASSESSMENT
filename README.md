@@ -6,6 +6,41 @@
 
 An AI-powered system for assessing fraud risk in real time.
 
+## System Roadmap
+
+<div align="center">
+
+### <a href="Roadmap/Fraud_Risk_Assessment_System_Roadmap%20(1).html">Open the Interactive System Roadmap</a>
+
+</div>
+
+<table>
+  <tr>
+    <th align="center">Offline: Data &amp; Model Training</th>
+    <th align="center">Online: Real-Time Detection</th>
+  </tr>
+  <tr>
+    <td>
+      Data collection, preprocessing, feature engineering, supervised and
+      anomaly-detection models, SHAP explanations, and MLflow model registration.
+    </td>
+    <td>
+      Real-time event ingestion, feature extraction, FastAPI inference,
+      unified risk scoring, actions, monitoring, and analyst feedback.
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Fraud detection modules</strong></summary>
+
+- Transaction fraud
+- Account takeover
+- Refund and return fraud
+- Multi-account abuse
+
+</details>
+
 ## Project Organization
 
 ```
@@ -29,6 +64,9 @@ An AI-powered system for assessing fraud risk in real time.
 │                         ai_powered_real_time_fraud_risk_assessment_system and tool configuration
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── Roadmap
+│   └── Fraud_Risk_Assessment_System_Roadmap (1).html <- Interactive system roadmap.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
