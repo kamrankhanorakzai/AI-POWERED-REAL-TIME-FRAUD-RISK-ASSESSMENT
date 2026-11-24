@@ -8,11 +8,7 @@ An AI-powered system for assessing fraud risk in real time.
 
 ## System Roadmap
 
-<div align="center">
-
-<img src="Roadmap/Fraud_Risk_Assessment_System_Roadmap.gif" alt="Animated AI-Powered Real-Time Fraud Risk Assessment System Roadmap" width="100%">
-
-</div>
+![Animated AI-Powered Real-Time Fraud Risk Assessment System Roadmap](Roadmap/Fraud_Risk_Assessment_System_Roadmap.gif)
 
 ## Project Organization
 
