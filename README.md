@@ -10,6 +10,30 @@ An AI-powered system for assessing fraud risk in real time.
 
 ![Animated AI-Powered Real-Time Fraud Risk Assessment System Roadmap](Roadmap/Fraud_Risk_Assessment_System_Roadmap.gif)
 
+### Roadmap at a glance
+
+#### Phase 1: Offline data preparation and model training
+
+1. Collect seller-store and synthetic data.
+2. Clean, integrate, anonymize, and explore the data; engineer transaction, account, order, refund, and device features.
+3. Train and evaluate a separate detector for each fraud type using a time-based data split.
+4. Compare models using PR-AUC, precision, recall, and F1; combine module scores with a stacking model.
+5. Track experiments and register validated models with MLflow; use SHAP for explanations.
+
+| Fraud type | Detection approach |
+|---|---|
+| Transaction fraud | Supervised classification |
+| Account takeover | Anomaly detection |
+| Refund and return fraud | Behavioral classification |
+| Multi-account abuse | Graph analysis of shared devices, IPs, or addresses |
+
+#### Phase 2: Online real-time fraud detection
+
+1. Ingest store events and extract real-time features, using customer history from the profile store.
+2. FastAPI runs the fraud detectors and combines their outputs into a risk score.
+3. Apply a risk-based action: approve, verify, review, or block. Thresholds shown in the diagram are illustrative and require validation.
+4. Log scores and decisions for monitoring, analyst review, and feedback-driven model retraining.
+
 ## Project Organization
 
 ```
