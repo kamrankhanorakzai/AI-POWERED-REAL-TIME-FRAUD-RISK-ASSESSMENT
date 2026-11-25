@@ -8,6 +8,7 @@ pip
 python-dotenv
 ruff
 seaborn
+scikit-learn
 tqdm
 typer
 -e .
